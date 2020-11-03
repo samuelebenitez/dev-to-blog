@@ -1,0 +1,44 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  white-space: nowrap;
+  .sidebar_button {
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+    transition: 0.5s;
+    display: flex;
+    &:hover {
+      color: #3b49df;
+      background-color: #3b49df48;
+    }
+    .sidebar_icon {
+      margin: 0 10px 0 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    .sidebar_button {
+      border-radius: 5px;
+      padding: 0.5em 1em;
+      font-size: 1.1em;
+      margin: 0 0 5px 0;
+      transition: 0.5s;
+      display: flex;
+      &:hover {
+        color: #3b49df;
+        background-color: #3b49df48;
+      }
+      .sidebar_icon {
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+}

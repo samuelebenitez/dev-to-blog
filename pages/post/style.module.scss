@@ -1,0 +1,39 @@
+.body {
+  background-color: #eef0f1;
+  .container {
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+    .art_img {
+      height: 400px;
+    }
+    .author {
+      display: flex;
+      padding: 1em 3em;
+      align-items: center;
+      .author_img {
+        height: 40px;
+        border-radius: 50%;
+      }
+      .author_name {
+        margin: 0 1em;
+        font-weight: bolder;
+      }
+      .date {
+        color: gray;
+        font-size: 0.9em;
+      }
+    }
+    .title {
+      font-size: 3em;
+      font-weight: bolder;
+      text-align: center;
+      padding: 1em 0;
+    }
+    .markdown {
+      padding: 2em;
+      font-size: 1.3em;
+    }
+  }
+}
